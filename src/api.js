@@ -1,6 +1,7 @@
 const API_BASE_URL = "https://api.videosdk.live";
 const VIDEOSDK_TOKEN = process.env.NEXT_PUBLIC_VIDEOSDK_TOKEN;
 const API_AUTH_URL = process.env.NEXT_PUBLIC_AUTH_URL;
+console.log(VIDEOSDK_TOKEN)
 
 export const getToken = async () => {
   if (VIDEOSDK_TOKEN && API_AUTH_URL) {
