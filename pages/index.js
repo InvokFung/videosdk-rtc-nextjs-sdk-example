@@ -12,7 +12,7 @@ const MeetingAppContainer = dynamic(
 
 export default function Home() {
   return (
-    <ThemeProvider theme={generateMuiTheme()}>
+    <ThemeProvider>
       <MeetingAppContainer />
     </ThemeProvider>
   );
